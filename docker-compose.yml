@@ -14,7 +14,7 @@ services:
       - "/mnt/user/appdata/tower/tsdproxy:/data"
       - "/mnt/user/appdata/tower/tsdproxy-config:/config"
   network-librespeed:
-    image: "lscr.io/linuxserver/librespeed:5.4.1"
+    image: "lscr.io/linuxserver/librespeed:5.4.20240804"
     container_name: "librespeed"
     labels:
       tsdproxy.enable: "true"
