@@ -1,0 +1,10 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "managers": ["docker-compose"],
+      "matchDatasources": ["docker"],
+      "automerge": false
+    }
+  ]
+}
