@@ -1,9 +1,15 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "managers": ["docker-compose"],
-      "matchDatasources": ["docker"],
+      "matchManagers": [
+        "docker-compose"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
       "automerge": false
     }
   ]
